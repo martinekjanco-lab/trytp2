@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "trytp",
+  "version": "${version}",
+  "name": "TryTP",
+  "description": "/trytp <player> waits until the player turns TPA on, then sends /tpahere to them.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.trytp.TryTpMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
